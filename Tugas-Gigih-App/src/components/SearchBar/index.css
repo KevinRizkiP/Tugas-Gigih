@@ -1,0 +1,14 @@
+.Container-Search{
+  padding: 1rem;
+}
+
+.form-search {
+  margin-top: 1rem;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.form-search .form-search__input {
+  flex: 1 1 100%;
+}
