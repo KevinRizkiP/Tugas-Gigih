@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 // import Track from '../components/Track';
 // import SearchBar from '../components/SearchBar';
 // import CreatePlaylistForm from '../components/CreatePlaylistForm';
@@ -44,7 +44,7 @@ export default function Home() {
 
       setUserProfile();
     }
-  }, []);
+  });
 
   const getSpotifyLinkAuthorize = () => {
     const state = Date.now().toString();
@@ -130,7 +130,10 @@ export default function Home() {
                 </Link>
               </li>
               <li>
-                <Link to="/search" style={{ textDecoration: "none", color: "white" }}>
+                <Link
+                  to="/search"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
                   Search
                 </Link>
               </li>

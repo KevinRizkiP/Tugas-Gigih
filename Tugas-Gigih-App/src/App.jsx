@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./pages/Home";
-import { Route, Routes,Navigate  } from "react-router-dom";
+import { Route, Routes  } from "react-router-dom";
 import { useSelector } from "react-redux";
 import CreatePlaylistForm from "./components/CreatePlaylistForm";
 import SearchGroup from "./pages/SearchGroup/SearchGroup";
