@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import Track from '../../components/Track';
-import SearchBar from '../../components/SearchBar';
-import CreatePlaylistForm from '../../components/CreatePlaylistForm';
+import Track from '../../components/Track/Track';
+import SearchBar from '../../components/SearchBar/SearchBar';
+import CreatePlaylistForm from '../../components/CreatePlaylistForm/CreatePlaylistForm';
 import { useDocumentTitle } from '../../lib/customHooks';
-import Layout from '../../components/Layout';
+import Layout from '../../components/Layout/Layout';
 import { Box, Divider, Grid, Text } from '@chakra-ui/react';
 import { Track as ITrack } from '../../types/tracks';
 

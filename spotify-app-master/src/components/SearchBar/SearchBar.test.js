@@ -1,5 +1,5 @@
 import { render, screen, cleanup } from '@testing-library/react';
-import SearchBar from './index';
+import SearchBar from './SearchBar';
 import { Provider } from 'react-redux';
 import store from '../../store';
 import userEvent from '@testing-library/user-event';

@@ -1,5 +1,5 @@
 import { render, screen, cleanup } from '@testing-library/react';
-import CreatePlaylistForm from './index';
+import CreatePlaylistForm from './CreatePlaylistForm';
 import { Provider } from 'react-redux';
 import store from '../../store';
 import userEvent from '@testing-library/user-event';

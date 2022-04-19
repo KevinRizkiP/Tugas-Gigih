@@ -1,5 +1,5 @@
 import { render, screen, cleanup } from '@testing-library/react';
-import CreatePlaylist from './index';
+import CreatePlaylist from './CreatePlaylistGroup';
 import { Provider } from 'react-redux';
 import store from '../../store';
 import userEvent from '@testing-library/user-event';

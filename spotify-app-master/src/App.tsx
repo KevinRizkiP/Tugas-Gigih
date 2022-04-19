@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import CreatePlaylist from './pages/CreatePlaylist';
+import CreatePlaylist from './pages/CreatePlaylist/CreatePlaylistGroup';
 import { useLocation, Switch, Route } from 'react-router-dom';
-import Auth from './pages/Auth';
-import GuardRoute from './components/GuardRoute';
-import NotFound from './pages/NotFound';
+import Auth from './pages/Auth/Auth';
+import GuardRoute from './components/GuardRoute/GuardRoute';
+import NotFound from './pages/NotFound/NotFound';
 import { login, logout } from './slice/authSlice';
 import { useAppDispatch, useAppSelector } from './store';
 import { User } from './types/user';

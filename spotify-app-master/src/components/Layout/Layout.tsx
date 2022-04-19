@@ -1,6 +1,6 @@
 import { Flex } from '@chakra-ui/react';
 import React from 'react';
-import Navbar from '../Navbar/index'
+import Navbar from '../Navbar/NavBar'
 
 interface IProps {
   children: React.ReactNode;
